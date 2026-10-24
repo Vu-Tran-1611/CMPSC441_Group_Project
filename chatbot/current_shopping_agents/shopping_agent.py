@@ -31,10 +31,7 @@ def shopping_agent(questions):
     )
 
     # llm = ChatOllama(temperature=0, model=MODEL) 
-    llm = ChatOpenAI(
-        model=MODEL,
-        reasoning_effort="none",  
-    ) 
+    llm = ChatOpenAI( model=MODEL, reasoning_effort="none") 
     agent = create_agent(model=llm, tools=tools, system_prompt=system_prompt)
     result = agent.invoke({"messages": [HumanMessage(content=questions)]})
     return result["messages"][-1].content

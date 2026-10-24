@@ -40,9 +40,9 @@ Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).
 1. Visit [ollama.com/download](https://ollama.com/download) and download the software
 2. Open the Ollama app and leave it running
 3. Go back to Terminal that you openned with environment activated, download the models by the scripts below 
-4. I tested 2 local models: qwen3:1.7b (1.7 billion Parameters - 1.4GB), The correctness is prettly low (< 40%), qwen3:8b (8 billion Parameters - 5.2 GB), the correctness is around 60% - 80%, you may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS, if model cannot call tools, you cannot use to build agent! 
+4. I tested 2 local models: qwen3:1.7b (Parameters: 1.7 billion - Storage: 1.4GB - Response time: ~ 30s), The correctness is prettly low (< 40%), qwen3:8b (Parameters: 8 billion - Storage: 5.2 GB - Response time: ~ 35s), the correctness is around 60% - 70%, you may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS, if model cannot call tools, you cannot use to build agent! 
 
-
+ 
    ```bash
    ollama pull qwen3:8b
    ```
@@ -65,7 +65,10 @@ For the sake of clarity, I decided that you will not give me any money for cloud
 3. Create an account and then click on "API keys" on left sidebar, then create secret key
 4. They should ask you to save the key, you just need to copy that and paste into .env file  
 next to OPENAI_API_KEY. (i.e: OPENAI_API_KEY = sk_sadasd123123_asdasfqewe_dasd123123_asdasdscx) 
-5. The other providers are similar. 
+5. The other providers are similar.  
+6. I tested 2 cloud GPT models: GPT 5.5 (Parameters: 7~10 Trillion - Response Time: ~ 8s-9s - Cost: ~ $0.03-$0.05), the correctness is ~ 99%-100%. GPT 5.4-mini (Parameters: Between 1T and 7T - Response Time: ~ 4s-5s - Cost: ~ $0.004-$0.01), the correctness is ~ 96% - 100%
+
+
 
 ## 5. SET UP FOR LANGSMITH: 
 Langsmith is a website that allow you to keep track of number of tokens, money cost, time response, agent internal thoughts for each conversation and so many other helpful features. 
