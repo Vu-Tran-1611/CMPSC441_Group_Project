@@ -18,12 +18,9 @@ from tavily import TavilyClient
 from langchain_ollama import ChatOllama
 from langchain_tavily import TavilySearch   
 
+# This loads environment variables from the .env file, such as API keys for OpenAI, Tavily, etc, 
+# So LangChain can access these environment variables when creating agents and tools.
 load_dotenv()
-
-
-# If your agent need to search something on the internet 
-# (i.e: "what is the weather in Tokyo?"), you can use TavilySearch tool. 
-# You can go to https://tavily.com/ to get your Tavily API key and set it in your .env file as TAVILY_API_KEY.
 
 
 
@@ -32,7 +29,11 @@ load_dotenv()
 # In your project, you should define tools in seperate files and import them in your main file.
 
 
+# If your agent need to search something on the internet 
+# (i.e: "what is the weather in Tokyo?"), you can use TavilySearch tool. 
+# You can go to https://tavily.com/ to get your Tavily API key and set it in your .env file as TAVILY_API_KEY.
 # tavily = TavilyClient()   
+
 @tool
 def search(query: str) ->str: 
     """
