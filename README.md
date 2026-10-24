@@ -1,8 +1,10 @@
+# Agentic E-Commerce: An Intelligent Shopping System With Multi-Agent Orchestration
+
+
 ## Requirements 
 
 - Conda installed (Miniconda or Anaconda, Link: https://www.anaconda.com/download) for python packages manage (You can use other if you wish, but below is tutorial for Conda)
 - Visual Sudio Code 
-
 
 ## 1. GET THE PROJECT
 
