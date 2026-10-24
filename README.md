@@ -30,10 +30,19 @@ You need to activate the envrionment that you just created to run all the files 
 ## 3. SET UP FOR LOCAL MODEL (SKIP IF YOU USE CLOUD MODEL):
 
 As mentioned there are 2 ways to achieve LLM: 
-### Cloud Model - no need to download, host the model, achieve super intelligent model and super fast running but pay moneys for number of tokens used (words that you send to LLM)
+### Cloud Model:
+- No need to download the model
+- No need to host the model
+- Achieve super intelligent LLM 
+- Achieve super fast running LLM 
+### But pay moneys for number of tokens used (words that you send to LLM)
 
-### Local Model - need to DOWNLOAD and HOST the model, but don't have to spend any money  
-Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).  
+### Local Model 
+- Need to DOWNLOAD the model 
+- Need to HOST the model
+### but don't have to spend any money  
+
+### Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).  
 
 1. Visit [ollama.com/download](https://ollama.com/download) and download the software
 2. Open the Ollama app and leave it running
