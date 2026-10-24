@@ -1,16 +1,16 @@
 # Agentic E-Commerce: An Intelligent Shopping System With Multi-Agent Orchestration
 
 
-## 0. Requirements 
+## 0. REQUIREMENTS:
 
 - Conda installed (Miniconda or Anaconda, Link: https://www.anaconda.com/download) for python packages manage (You can use other if you wish, but below is tutorial for Conda)
 - Visual Sudio Code 
 
-## 1. GET THE PROJECT
+## 1. GET THE PROJECT:
 
 Clone or download the repository as a ZIP, extract it, and open the extracted project folder in VS Code. The project folder should contain `environment.yml` and `.env.example`
 
-## 2. CREATE CONDA ENVIRONMENT
+## 2. CREATE CONDA ENVIRONMENT:
 Now you should be inside the project, open the terminal inside VSCode and run below commands. Note: You will see the word "base" in the first word of the first line in terminal
 
 ```bash
@@ -27,7 +27,7 @@ conda activate cmpsc-441-group-project
 You need to activate the envrionment that you just created to run all the files (i.e: layer_0,your agent file,....). Note: After activate, You should see the phrase "cmpsc-441-group-project" instead "base" in the first line in terminal, that means the environment that you just created is actually activated.
 
 
-## 3. SET UP FOR LOCAL MODEL (SKIP IF YOU USE ClOUD MODEL): Install and prepare Ollama 
+## 3. SET UP FOR LOCAL MODEL (SKIP IF YOU USE ClOUD MODEL):
 
 As mentioned there are 2 ways to achieve LLM: 
 1. Cloud Model - no need to download, host the model, achieve super intelligent model and super fast running but pay moneys for number of tokens used (words that you send to LLM)
