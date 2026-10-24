@@ -40,7 +40,17 @@ Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).
 1. Visit [ollama.com/download](https://ollama.com/download) and download the software
 2. Open the Ollama app and leave it running
 3. Go back to Terminal that you openned with environment activated, download the models by the scripts below 
-4. I tested 2 local models: qwen3:1.7b (Parameters: 1.7 billion - Storage: 1.4GB - Response time: ~ 30s), The correctness is prettly low (< 40%), qwen3:8b (Parameters: 8 billion - Storage: 5.2 GB - Response time: ~ 35s), the correctness is around 60% - 70%, you may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS, if model cannot call tools, you cannot use to build agent! 
+4. I tested 2 local models: 
+   ### qwen3:1.7b 
+   - Parameters: 1.7 billion 
+   - Storage: 1.4GB 
+   - Response time: ~ 30s 
+   - The correctness is < 40%
+   ### qwen3:8b 
+   - Parameters: 8 billion 
+   - Storage: 5.2 GB - Response time: ~ 35 
+   - The correctness is around 60% - 70%, 
+you may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS, if model cannot call tools, you cannot use to build agent! 
 
  
    ```bash
