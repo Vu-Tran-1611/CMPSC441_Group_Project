@@ -48,7 +48,12 @@ As mentioned there are 2 ways to achieve LLM:
 
 1. Visit [ollama.com/download](https://ollama.com/download) and download the software
 2. Open the Ollama app and leave it running
-3. Go back to Terminal that you openned with environment activated, download the models by the scripts below 
+3. Go back to Terminal that you openned with environment activated, download the models by the scripts below (read step 4 before you run the scripts)
+
+   ```bash
+   ollama pull qwen3:8b
+   ```
+
 4. I tested 2 local models: 
    ### qwen3:1.7b 
    - Parameters: 1.7 billion 
@@ -68,12 +73,10 @@ You may need to consider these criteria when selecting local model:
    - Be able to call the RIGHT tools based on user query
    - Be able to extract the CORRECT parameters from user query 
    - Be able to pass those parameters into tools  
-Model qwen3:8b can do pretty well of all above criteria
+Model qwen3:8b can do pretty well of all above criteria, but again choice is yours
 
 
-   ```bash
-   ollama pull qwen3:8b
-   ```
+
 
 
 5. Confirm the models are available:
