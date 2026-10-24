@@ -66,7 +66,17 @@ For the sake of clarity, I decided that you will not give me any money for cloud
 4. They should ask you to save the key, you just need to copy that and paste into .env file  
 next to OPENAI_API_KEY. (i.e: OPENAI_API_KEY = sk_sadasd123123_asdasfqewe_dasd123123_asdasdscx) 
 5. The other providers are similar.  
-6. I tested 2 cloud GPT models: GPT 5.5 (Parameters: 7~10 Trillion - Response Time: ~ 8s-9s - Cost: ~ $0.03-$0.05), the correctness is ~ 99%-100%. GPT 5.4-mini (Parameters: Between 1T and 7T - Response Time: ~ 4s-5s - Cost: ~ $0.004-$0.01), the correctness is ~ 96% - 100%
+6. I tested 2 cloud GPT models: 
+GPT 5.5 
+   Parameters: 7~10 Trillion 
+   Response Time: ~ 8s-9s 
+   Cost: ~ $0.03-$0.05
+   The correctness is ~ 99%-100%. 
+GPT 5.4-mini 
+   Parameters: Between 1T and 7T 
+   Response Time: ~ 4s-5s 
+   Cost: ~ $0.004-$0.01
+   The correctness is ~ 96% - 100%
 
 
 
