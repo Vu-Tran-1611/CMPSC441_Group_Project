@@ -8,8 +8,7 @@
 
 ## 1. GET THE PROJECT
 
-Clone or download the repository as a ZIP, extract it, and open the extracted project folder in VS Code. The project folder should contain `environment.yml` and `.env.example`. 
-Remove .example in .env.example 
+Clone or download the repository as a ZIP, extract it, and open the extracted project folder in VS Code. The project folder should contain `environment.yml` and `.env.example`
 
 ## 2. CREATE CONDA ENVIRONMENT
 Now you should be inside the project, open the terminal inside VSCode and run below commands. Note: You will see the word "base" in the first word of the first line in terminal
