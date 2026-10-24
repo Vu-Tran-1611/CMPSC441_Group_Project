@@ -61,7 +61,15 @@ As mentioned there are 2 ways to achieve LLM:
    - Response time: ~ 35s
    - The correctness: 60% - 70%
 
-You may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS (with tools tag), if model cannot call tools, you cannot use to build agent! 
+You may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS (with tools tag), if model cannot call tools, you cannot use to build agent!
+You may need to consider these criteria when selecting local model: 
+   - Be able to understand user query 
+   - Be able to call the tool
+   - Be able to call the RIGHT tools based on user query
+   - Be able to extract the CORRECT parameters from user query 
+   - Be able to pass those parameters into tools  
+Model qwen3:8b can do pretty well of all above criteria
+
 
    ```bash
    ollama pull qwen3:8b
