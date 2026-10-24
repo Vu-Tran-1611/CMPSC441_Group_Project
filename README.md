@@ -73,6 +73,7 @@ You may need to consider these criteria when selecting local model:
    - Be able to call the RIGHT tools based on user query
    - Be able to extract the CORRECT parameters from user query 
    - Be able to pass those parameters into tools  
+   
 Model qwen3:8b can do pretty well of all above criteria, but again choice is yours
 
 
