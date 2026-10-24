@@ -9,7 +9,7 @@
 Clone the repository using its GitHub URL:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Vu-Tran-1611/CMPSC441_Group_Project_Agentic_E-Commerce-An-Intelligent-Shopping-System.git
 cd CMPSC_441_Group_Project
 ```
 
