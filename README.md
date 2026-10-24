@@ -24,7 +24,7 @@ This command do 2 things:
 ```bash
 conda activate cmpsc-441-group-project
 ```
-You need to activate the envrionment that you just created to run all the files (i.e: layer_0,your agent file,....). Note: After activate, You should see the phrase "cmpsc-441-group-project" instead "base" in the first line in terminal, that means the environment that you just created is actually activated.
+You need to activate the environment that you just created to run all the files (i.e: layer_0,your agent file,....). Note: After activate, You should see the phrase "cmpsc-441-group-project" instead "base" in the first line in terminal, that means the environment that you just created is actually activated.
 
 
 ## 3. SET UP FOR LOCAL MODEL (SKIP IF YOU USE CLOUD MODEL):
