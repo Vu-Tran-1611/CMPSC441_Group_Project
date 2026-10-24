@@ -48,7 +48,7 @@ Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).
    ### qwen3:8b 
    - Parameters: 8 billion 
    - Storage: 5.2 GB 
-   - Response time: ~ 35 
+   - Response time: ~ 35s
    - The correctness: 60% - 70%
 
 You may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS (with tools tag), if model cannot call tools, you cannot use to build agent! 
