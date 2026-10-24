@@ -17,7 +17,7 @@ Now you should be inside the project, open the terminal inside VSCode and run be
 conda env create -f environment.yml
 ```
 This command do 2 things: 
-1. creating environment in Conda system, this enviroment will store all the necessary packages that used for this repo only
+1. create environment in Conda system, this enviroment will store all the necessary packages that used for this repo only
 2. Download all the packages from environment.yml into that environment
 
 
