@@ -52,15 +52,15 @@ Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).
    - Response time: ~ 35 
    - The correctness: 60% - 70%
 
-You may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS, if model cannot call tools, you cannot use to build agent! 
+You may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS (with tools tag), if model cannot call tools, you cannot use to build agent! 
 
- 
    ```bash
    ollama pull qwen3:8b
    ```
 
 
 5. Confirm the models are available:
+
 
    ```bash
    ollama list
