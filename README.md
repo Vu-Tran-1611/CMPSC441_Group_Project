@@ -35,12 +35,12 @@ As mentioned there are 2 ways to achieve LLM:
 - No need to host the model
 - Achieve super intelligent LLM 
 - Achieve super fast response time from LLM
-### => But pay moneys for number of tokens used (words that you send to LLM)
+=> But pay moneys for number of tokens used (words that you send to LLM)
 
 ### Local Model 
 - Need to DOWNLOAD the model 
 - Need to HOST the model
-### => But don't have to spend any money  
+=> But don't have to spend any money  
 
 ### Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).  
 
