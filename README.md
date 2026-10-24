@@ -64,7 +64,7 @@ As mentioned there are 2 ways to achieve LLM:
    - Parameters: 8 billion 
    - Storage: 5.2 GB 
    - Response time: ~ 35s
-   - The correctness: 60% - 70%
+   - The correctness: 60% - 70% (likely to make up the answer - HALLUCINATION )
 
 You may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS (with tools tag), if model cannot call tools, you cannot use to build agent!
 You may need to consider these criteria when selecting local model: 
