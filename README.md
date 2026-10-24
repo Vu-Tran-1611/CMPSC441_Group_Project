@@ -27,7 +27,7 @@ conda activate cmpsc-441-group-project
 You need to activate the envrionment that you just created to run all the files (i.e: layer_0,your agent file,....). Note: After activate, You should see the phrase "cmpsc-441-group-project" instead "base" in the first line in terminal, that means the environment that you just created is actually activated.
 
 
-## 3. SET UP FOR LOCAL MODEL (SKIP IF YOU USE ClOUD MODEL):
+## 3. SET UP FOR LOCAL MODEL (SKIP IF YOU USE CLOUD MODEL):
 
 As mentioned there are 2 ways to achieve LLM: 
 1. Cloud Model - no need to download, host the model, achieve super intelligent model and super fast running but pay moneys for number of tokens used (words that you send to LLM)
@@ -70,7 +70,7 @@ If the `ollama` command is not found, finish installing the Ollama app, open it,
 
 
 
-## 4. SET UP FOR CLOUD MODEL (SKIP IP YOU USE LOCAL MODEL):  
+## 4. SET UP FOR CLOUD MODEL (SKIP IF YOU USE LOCAL MODEL):  
 For the sake of clarity, I decided that you will not give me any money for cloud model, instead you will sign up an account with your favourite provider and obtain their api key, then pay credits by yourself. 
 1. Choose any cloud model providers you prefer (OpenAI, Google, Anthropic....) - I have been using OpenAI 
 2. If you like OpenAI go to https://platform.openai.com/
