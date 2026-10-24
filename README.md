@@ -33,7 +33,6 @@ As mentioned there are 2 ways to achieve LLM:
 1. Cloud Model - no need to download, host the model, achieve super intelligent model and super fast running but pay moneys for number of tokens used (words that you send to LLM)
 
 2. Local Model - need to DOWNLOAD and HOST the model, but don't have to spend any money  
-
 Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).  
 
 
@@ -45,7 +44,7 @@ Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).
    - Parameters: 1.7 billion 
    - Storage: 1.4GB 
    - Response time: ~ 30s 
-   - The correctness: < 40%
+   - The correctness: ~40% (likely to make up the answer - HALLUCINATION )
    ### qwen3:8b 
    - Parameters: 8 billion 
    - Storage: 5.2 GB 

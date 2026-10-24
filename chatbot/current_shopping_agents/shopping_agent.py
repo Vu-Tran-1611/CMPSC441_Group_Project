@@ -1,18 +1,16 @@
 import sys
 from pathlib import Path
-
 from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain_core.messages import HumanMessage
 from langsmith import traceable
-
 from tools.product_tools import search_products
 from tools.policy_retrieval_tools import retrieve_policies
-
 from langchain_ollama import ChatOllama
 from langchain_openai import ChatOpenAI
-
 load_dotenv()  
+
+
 # MODEL = "qwen3:1.7b" 
 # MODEL = "qwen3:8b"
 # MODEL = "gpt-5.5" 
@@ -30,8 +28,10 @@ def shopping_agent(questions):
         "that you can only help with store-related questions."
     )
 
-    # llm = ChatOllama(temperature=0, model=MODEL) 
-    llm = ChatOpenAI( model=MODEL, reasoning_effort="none") 
+    # llm = ChatOllama(temperature=0, model=MODEL) # Using local Ollama LLM
+    llm = ChatOpenAI( model=MODEL, reasoning_effort="none") # Using Cloud LLM (i.e. OpenAI API)
+
+
     agent = create_agent(model=llm, tools=tools, system_prompt=system_prompt)
     result = agent.invoke({"messages": [HumanMessage(content=questions)]})
     return result["messages"][-1].content
@@ -39,7 +39,7 @@ def shopping_agent(questions):
 
 
 if __name__ == "__main__":
-    questions = "I want some men watches. Can you help me find some good options under $500? " 
+    questions = "How to Request a Return" 
     answer = shopping_agent(questions) 
     print(answer)
 
