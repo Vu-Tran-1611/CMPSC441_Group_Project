@@ -45,11 +45,12 @@ Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).
    - Parameters: 1.7 billion 
    - Storage: 1.4GB 
    - Response time: ~ 30s 
-   - The correctness is < 40%
+   - The correctness: < 40%
    ### qwen3:8b 
    - Parameters: 8 billion 
-   - Storage: 5.2 GB - Response time: ~ 35 
-   - The correctness is around 60% - 70%, 
+   - Storage: 5.2 GB 
+   - Response time: ~ 35 
+   - The correctness: 60% - 70%
 
 You may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS, if model cannot call tools, you cannot use to build agent! 
 
@@ -82,12 +83,12 @@ next to OPENAI_API_KEY. (i.e: OPENAI_API_KEY = sk_sadasd123123_asdasfqewe_dasd12
    - Parameters: 7~10 Trillion 
    - Response Time: ~ 8s-9s 
    - Cost: ~ $0.03-$0.05
-   - The correctness is ~ 99%-100%. 
+   - The correctness: ~ 99%-100%. 
    ### GPT 5.4-mini 
    - Parameters: Between 1T and 7T 
    - Response Time: ~ 4s-5s 
    - Cost: ~ $0.004-$0.01
-   - The correctness is ~ 96% - 100%
+   - The correctness: ~ 96% - 100%
 
 
 
