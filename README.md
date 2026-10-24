@@ -17,29 +17,29 @@ Now you should be inside the project, open the terminal inside VSCode and run be
 conda env create -f environment.yml
 ```
 This command do 2 things: 
-1. create environment in Conda system, this enviroment will store all the necessary packages that used for this repo only
+1. Create an environment in Conda system, this enviroment will store all the necessary packages that used for this repos only
 2. Download all the packages from environment.yml into that environment
 
 
 ```bash
 conda activate cmpsc-441-group-project
 ```
-You need to activate the envrionment that you just created to run all the files (i.e: layer_0,layer_1,....). Note: After activate, You should see the phrase "cmpsc-441-group-project" instead "base" in the first line in terminal that means the environment that you just created is actually activated.
+You need to activate the envrionment that you just created to run all the files (i.e: layer_0,your agent file,....). Note: After activate, You should see the phrase "cmpsc-441-group-project" instead "base" in the first line in terminal, that means the environment that you just created is actually activated.
 
 
 ## 3. SET UP FOR LOCAL MODEL (SKIP IF YOU USE ClOUD MODEL): Install and prepare Ollama 
 
 As mentioned there are 2 ways to achieve LLM: 
-1. Cloud Model - no need to download, hosting, super intelligent model, super fast running but pay moneys for number of tokens used (words that you send to LLM)
+1. Cloud Model - no need to download, host the model, achieve super intelligent model and super fast running but pay moneys for number of tokens used (words that you send to LLM)
 
-2. Local Model - need to DOWNLOAD and HOST model, but don't have to spend any money  
+2. Local Model - need to DOWNLOAD and HOST the model, but don't have to spend any money  
 
 Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).  
 
 
-1. Visit [ollama.com/download](https://ollama.com/download) and download 
-2. Open the Ollama app and leave it running while using Ollama-based scripts.
-3. Go back to Terminal that you openned with environment active (activated), download the models by the scripts below 
+1. Visit [ollama.com/download](https://ollama.com/download) and download the software
+2. Open the Ollama app and leave it running
+3. Go back to Terminal that you openned with environment activated, download the models by the scripts below 
 4. I tested 2 local models: qwen3:1.7b (1.7 billion Parameters - 1.4GB), The correctness is prettly low (< 40%), qwen3:8b (8 billion Parameters - 5.2 GB), the correctness is around 60% - 80%, you may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS, if model cannot call tools, you cannot use to build agent! 
 
 
