@@ -64,9 +64,8 @@ As mentioned there are 3 ways to achieve LLM:
 4. I tested 2 local models:  
 
    Correctness is the accuracy of the agent's response and user/developer expectations. It is NOT the accuracy of the information in the agent's response, because this information is outside the knowledge of the AGENT (i.e., from a database, the Internet, etc.).
-   For example, regarding correctness: 
    
-   I (developer) want the response from the agent to be line by line, but it puts everything on a single line
+   For example, regarding correctness: I (developer) want the response from the agent to be line by line, but it puts everything on a single line
 
    ### qwen3:1.7b 
    - Parameters: 1.7 billion 
