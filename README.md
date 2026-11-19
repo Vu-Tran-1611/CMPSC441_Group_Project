@@ -142,5 +142,5 @@ and paste into .env below LangSmith.
 
 ## 8. START BUILDING AGENT AND TOOL: 
 1. Each of us should come up with two tools and one agent to test whether your agent can choose the right tool and pass the correct parameters. Ideally, both tools should handle related tasks - for example, two user-related tools or two product-related tools. 
-2. Let me know what specific tool you will build, including input, output and detail descrition of the tool so I can provide you website api. 
+2. BUT FIRST OF ALL, let me know what specific tool you will build, including input, output and detail descrition of the tool so I can provide you website api. 
 
