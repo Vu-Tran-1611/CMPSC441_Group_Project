@@ -70,6 +70,7 @@ def search_products(
         "product_type": product_type
     }
     response = requests.get(f"{LARAVEL_API_URL}/api/ai/products/search", params=params)
+    
     if response.status_code == 200:
         return response.json() 
     else: 

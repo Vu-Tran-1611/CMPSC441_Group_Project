@@ -27,9 +27,9 @@ conda activate cmpsc-441-group-project
 You need to activate the environment that you just created to run all the files (i.e: layer_0,your agent file,....). Note: After activate, You should see the phrase "cmpsc-441-group-project" instead "base" in the first line in terminal, that means the environment that you just created is actually activated.
 
 
-## 3. SET UP FOR LOCAL MODEL (SKIP IF YOU USE CLOUD MODEL):
+## 3. ACHIEVE MODEL: 
+As mentioned there are 3 ways to achieve LLM: 
 
-As mentioned there are 2 ways to achieve LLM: 
 ### Cloud Model:
 - No need to download the model
 - No need to host the model
@@ -38,11 +38,18 @@ As mentioned there are 2 ways to achieve LLM:
 
 => But pay moneys for number of tokens used (words that you send to LLM)
 
-### Local Model 
+### Local Model on your computer
 - Need to DOWNLOAD the model 
 - Need to HOST the model
-
+ 
 => But don't have to spend any money  
+
+### Local Model On SunLab 
+- Need to DOWNLOAD the model on SunLab computer 
+- Need to HOST the model on SunLab computer
+- Open and maintain ssh tunnel so your computer can communicate with Sun Lab computer  
+
+## 4. SET UP FOR LOCAL MODEL ON YOUR COMPUTER (SKIP IF YOU USE CLOUD MODEL):
 
 ### Ollama is a software that help you to DOWNLOAD, manage and HOST model (LLM).  
 
@@ -54,7 +61,12 @@ As mentioned there are 2 ways to achieve LLM:
    ollama pull qwen3:8b
    ```
 
-4. I tested 2 local models: 
+4. I tested 2 local models:  
+```
+Correctness is the accuracy of the agent's response and user/developer expectations. It is NOT the accuracy of the information in the agent's response, because this information is outside the knowledge of the AGENT (i.e., from a database, the Internet, etc.).
+For example, regarding this correctness: 
+I (developer) want the response from the agent to be line by line, but it puts everything on a single line
+```
    ### qwen3:1.7b 
    - Parameters: 1.7 billion 
    - Storage: 1.4GB 
@@ -78,8 +90,6 @@ Model qwen3:8b can do pretty well of all above criteria, but again choice is you
 
 
 
-
-
 5. Confirm the models are available:
 
 
@@ -91,7 +101,7 @@ If the `ollama` command is not found, finish installing the Ollama app, open it,
 
 
 
-## 4. SET UP FOR CLOUD MODEL (SKIP IF YOU USE LOCAL MODEL):  
+## 5. SET UP FOR CLOUD MODEL (SKIP IF YOU USE LOCAL MODEL):  
 For the sake of clarity, I decided that you will not give me any money for cloud model, instead you will sign up an account with your favourite provider and obtain their api key, then pay credits by yourself. 
 1. Choose any cloud model providers you prefer (OpenAI, Google, Anthropic....) - I have been using OpenAI 
 2. If you like OpenAI go to https://platform.openai.com/
@@ -113,7 +123,7 @@ next to OPENAI_API_KEY. (i.e: OPENAI_API_KEY = sk_sadasd123123_asdasfqewe_dasd12
 
 
 
-## 5. SET UP FOR LANGSMITH: 
+## 6. SET UP FOR LANGSMITH: 
 Langsmith is a website that allow you to keep track of number of tokens, money cost, time response, agent internal thoughts for each conversation and so many other helpful features. 
 When you put the decorator @tool on the top of function, Langsmith will automatically keep track of this tool and other things. 
 
@@ -123,3 +133,14 @@ When you put the decorator @tool on the top of function, Langsmith will automati
 4. Click on generate api key, in the box configuration environment, switch to tab .env, copy everything
 and paste into .env below LangSmith. 
 5. Now whenever you talk with agent, you will see everything is traced in "tracing"
+
+
+## 7. READ NECESSARY FILES: 
+1. layer_0.py: basic things about Langchain 
+2. shopping_agent.py, product_tools.py: How I implemented agent for the current website 
+3. Other files are optional if you are interested in Agentic RAG (or your tools need RAG) and LangChain ecosystem 
+
+## 8. START BUILDING AGENT AND TOOL: 
+1. Each of us should come up with two tools and one agent to test whether your agent can choose the right tool and pass the correct parameters. Ideally, both tools should handle related tasks - for example, two user-related tools or two product-related tools. 
+2. Let me know what specific tool you will build, including input, output and detail descrition of the tool so I can provide you website api. 
+

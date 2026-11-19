@@ -18,6 +18,7 @@ MODEL = "gpt-5.4-mini"
 
 
 @traceable # This for tracing the execution of the shopping_agent function on Langsmith pretty similar to @tool
+
 def shopping_agent(questions):
     tools = [search_products, retrieve_policies] 
     system_prompt = (
@@ -34,6 +35,7 @@ def shopping_agent(questions):
 
     agent = create_agent(model=llm, tools=tools, system_prompt=system_prompt)
     result = agent.invoke({"messages": [HumanMessage(content=questions)]})
+    
     return result["messages"][-1].content
 
 
