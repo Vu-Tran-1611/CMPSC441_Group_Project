@@ -63,10 +63,6 @@ As mentioned there are 3 ways to achieve LLM:
 
 4. I tested 2 local models:  
 
-   Correctness is the accuracy of the agent's response and user/developer expectations. It is NOT the accuracy of the information in the agent's response, because this information is outside the knowledge of the AGENT (i.e., from a database, the Internet, etc.).
-   
-   For example, regarding correctness: I (developer) want the response from the agent to be line by line, but it puts everything on a single line
-
    ### qwen3:1.7b 
    - Parameters: 1.7 billion 
    - Storage: 1.4GB 
@@ -77,6 +73,10 @@ As mentioned there are 3 ways to achieve LLM:
    - Storage: 5.2 GB 
    - Response time: ~ 35s
    - The correctness: 60% - 70% (likely to make up the answer - HALLUCINATION )
+
+   Correctness is the accuracy of the agent's response and user/developer expectations. It is NOT the accuracy of the information in the agent's response, because this information is outside the knowledge of the AGENT (i.e., from a database, the Internet, etc.).
+
+   For example, I (developer) want the response from the agent to be line by line, but it puts everything on a single line
 
 You may select any models you like on Ollama website, but read the description to see whether model be ABLE TO CALL TOOLS (with tools tag), if model cannot call tools, you cannot use to build agent!
 You may need to consider these criteria when selecting local model: 
