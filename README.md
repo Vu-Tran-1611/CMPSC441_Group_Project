@@ -144,3 +144,5 @@ and paste into .env below LangSmith.
 1. Each of us should come up with two tools and one agent to test whether your agent can choose the right tool and pass the correct parameters. Ideally, both tools should handle related tasks - for example, two user-related tools or two product-related tools. 
 2. BEFORE JUMPING TO CODE, let me know what specific tool you will build, including input, output and detail description of the tool so I can provide you website api. 
 
+## 9. REFERENCE: 
+1. You can visit the website to come up with interesting tools: https://demo.fashion-shop.uk/ 
