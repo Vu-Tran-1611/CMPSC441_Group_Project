@@ -15,7 +15,8 @@ def search_products(
     min_price:Optional[float] = None,
     max_price:Optional[float] = None, 
     product_type:Optional[str] = None 
-)-> Dict[str, Any]: 
+)-> Dict[str, Any]:  
+    
     """Search Products from the Laravel ecommerce backend. 
     
     -----Keyword arguments:
@@ -60,6 +61,7 @@ def search_products(
     -"Find Apple products under $1000" -> search_products(keywords="Apple",brand="Apple", max_price=1000) 
     -"Show me top clothes" -> search_products(category="fashion",product_type="top") 
     """
+    
     params = {
         "keywords": keywords,
         "category": category,
@@ -69,7 +71,11 @@ def search_products(
         "max_price": max_price,
         "product_type": product_type
     }
+
     response = requests.get(f"{LARAVEL_API_URL}/api/ai/products/search", params=params)
+
+
+
     
     if response.status_code == 200:
         return response.json() 
