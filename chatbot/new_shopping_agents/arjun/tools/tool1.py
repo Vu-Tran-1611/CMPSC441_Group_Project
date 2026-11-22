@@ -26,11 +26,11 @@
 #     headers={"Accept": "application/json"},
 #     timeout=10,
 # )
-# data = response.json() 
+# jsonResponse = response.json() 
 # 
-# data will look like this: 
+# jsonResponse will look like this: 
 # 
-# data
+# jsonResponse
 # {
 #   "success": true,
 #   "found": true,
@@ -62,10 +62,10 @@
 #     headers={"Accept": "application/json"},
 #     timeout=10,
 # )
-# data = response.json()  
+# jsonResponse = response.json()  
 
-# data will look like this:
-# data 
+# jsonResponse will look like this:
+# jsonResponse
 # {
 #     "success": true,
 #     "query": {
