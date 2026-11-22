@@ -45,7 +45,7 @@
 #     "offer_price": 20,
 #     "is_on_sale": false,
 #     "current_price": 25,
-#     "url": "http://.../product/nike-summer-cotton-t-shirt"
+#     "url": "https://.../product?product=nike-summer-cotton-t-shirt"
 #   }]
 # }
 
@@ -85,7 +85,7 @@
 #             "offer_price": 49,
 #             "is_on_sale": false,
 #             "current_price": 59,
-#             "url": "http://...../product?product=sony-god-of-war-2-2007-disc"
+#             "url": "https://...../product?product=sony-god-of-war-2-2007-disc"
 #         },
 #         {
 #             "id": 67,
@@ -96,7 +96,7 @@
 #             "offer_price": 57,
 #             "is_on_sale": false,
 #             "current_price": 69,
-#             "url": "http://...../product?product=sony-god-of-war-ragnarok-ps5-game-disc"
+#             "url": "https://...../product?product=sony-god-of-war-ragnarok-ps5-game-disc"
 #         },
 #         {
 #             "id": 244,
@@ -107,7 +107,7 @@
 #             "offer_price": 24,
 #             "is_on_sale": false,
 #             "current_price": 29,
-#             "url": "http://...../product?product=sony-god-of-war-3-ps4-hits-edition-game-disc"
+#             "url": "https://...../product?product=sony-god-of-war-3-ps4-hits-edition-game-disc"
 #         },
 #         {
 #             "id": 242,
@@ -118,7 +118,7 @@
 #             "offer_price": 58,
 #             "is_on_sale": false,
 #             "current_price": 69,
-#             "url": "http://...../product?product=sony-god-of-war-psp-ghost-of-sparta-disc-2010"
+#             "url": "https://...../product?product=sony-god-of-war-psp-ghost-of-sparta-disc-2010"
 #         },
 #         {
 #             "id": 241,
@@ -129,7 +129,7 @@
 #             "offer_price": 32,
 #             "is_on_sale": false,
 #             "current_price": 39,
-#             "url": "http://...../product?product=sony-god-of-war-ps2-chains-of-olympus-disc-2008"
+#             "url": "https://...../product?product=sony-god-of-war-ps2-chains-of-olympus-disc-2008"
 #         }
 #     ]
 # }
